@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Love All Words From Books</title>
     <link rel="stylesheet" href="src/style.css"/>
 </head>
@@ -11,7 +12,7 @@
         <h1>Welcome to the AI Romance Novel Poem Generator</h1>
     </header>
     <main>
-        <form>
+        <form id="poemForm" class="poem-form">
             <input 
               type="text" 
               id="inputText"
@@ -28,7 +29,7 @@
             </button>
         </form>
         <div id="poemContainer" class="poem-container">
-            <p id="poemOutput">Your poem will appear here...</p>
+            <h2>Your Poem</h2>
         </div>
     </main>
     <footer> 
