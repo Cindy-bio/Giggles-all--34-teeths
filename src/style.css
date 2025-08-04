@@ -2,9 +2,13 @@ body{
     background-color: rgb(255, 209, 223);
     font-family: Arial, sans-serif;
 }
+a{
+    color: rgb(185, 97, 128);
+    text-decoration: none;
+}
 .container {
     max-width: 80%;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 h1 {
     color: rgb(185, 97, 128);
@@ -43,4 +47,21 @@ form{
     cursor: pointer;
     font-size: 16px;
 
+}
+.poem-container {
+    font-size: medium;
+    color: rgb(100, 100, 100);
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 1.5;
+    background-color: white;
+    border-radius: 10px;
+    border-left: 3px solid rgb(185, 97, 128);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    font-size: small;
+    color: rgb(100, 100, 100);
+    margin-top: 20px;
 }
