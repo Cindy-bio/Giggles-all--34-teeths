@@ -6,7 +6,7 @@
     <title>Love All Words From Books</title>
     <link rel="stylesheet" href="scr/style.css">
 </head>
-<body>
+<body class="container">
     <header>
         <h1>Welcome to the AI Romance Novel Poem Generator</h1>
     </header>
@@ -15,11 +15,17 @@
             <input 
               type="text" 
               id="inputText"
-              placeholder="Enter the title of your favorite romance novel" 
+              class="input-field"
+              placeholder="Enter title of favorite romance novel" 
               autofocus 
               required
             />
-            <button type="submit" id="generateButton">Generate Poem</button>
+            <button 
+              type="submit" 
+              id="generateButton"
+              class="enterButton">
+                Generate Poem
+            </button>
         </form>
         <div id="poemContainer">
             <h2>Your Generated Poem</h2>
