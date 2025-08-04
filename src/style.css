@@ -6,6 +6,10 @@ a{
     color: rgb(185, 97, 128);
     text-decoration: none;
 }
+a:hover{
+    color:deeppink
+    text-decoration: underline;
+}
 .container {
     max-width: 70%;
     margin: 100px auto;
@@ -27,6 +31,7 @@ form{
     align-items: center;
     flex-direction: column;
     margin-top: 20px;
+    border-radius: 20px;
     color: rgb(240, 179, 240);
     background-color: ghostwhite;
 }
@@ -48,13 +53,18 @@ form{
     font-size: 16px;
 
 }
+.enterButton:hover {
+    background-color: rgb(248, 131, 182);
+}
 .poem-container {
-    font-size: medium;
-    color: rgb(100, 100, 100);
+    font-family: "Lovers Quarrel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(209, 160, 160);
     margin-top: 20px;
     padding: 20px;
     line-height: 1.5;
-    background-color: white;
+    background-color: ghostwhite;
     border-radius: 10px;
     border-left: 3px solid rgb(185, 97, 128);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
