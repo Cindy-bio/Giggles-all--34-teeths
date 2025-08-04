@@ -7,11 +7,11 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color:deeppink
+    color:deeppink;
     text-decoration: underline;
 }
 .container {
-    max-width: 70%;
+    max-width: 60%;
     margin: 100px auto;
 }
 h1 {
@@ -36,6 +36,9 @@ form{
     background-color: ghostwhite;
 }
 .input-field {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
     width: 80%;
     padding: 10px;
     margin: 10px 0;
