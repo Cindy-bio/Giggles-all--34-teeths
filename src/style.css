@@ -30,8 +30,8 @@ form{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
-    border-radius: 20px;
+    margin: 20px;
+    border-radius: 10px;
     color: rgb(240, 179, 240);
     background-color: ghostwhite;
 }
@@ -39,6 +39,7 @@ form{
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
+    font-size: 16px;
     width: 80%;
     padding: 10px;
     margin: 10px 0;
@@ -61,8 +62,8 @@ form{
 }
 .poem-container {
     font-family: "Lovers Quarrel", cursive;
+    font-size: 22px;
     font-weight: 400;
-    font-style: normal;
     color: rgb(209, 160, 160);
     margin-top: 20px;
     padding: 20px;
