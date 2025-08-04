@@ -7,8 +7,27 @@
     <link rel="stylesheet" href="scr/style.css">
 </head>
 <body>
-    <h1>Welcome to the AI Romance Novel Poem Generator</h1>
-    <footer> This AI project was coded by <a href="https://github.com/Cindy-bio" target="_blank">Cindy Nkosi</a> and is open sourced on <a href="https://github.com/Cindy-bio/Giggles-all--34-teeths.git" target="_blank"> GitHub,</a> and is hosted on <a href ="https://poemsforall.netlify.app/" > netlify</a>
+    <header>
+        <h1>Welcome to the AI Romance Novel Poem Generator</h1>
+    </header>
+    <main>
+        <form>
+            <input 
+              type="text" 
+              id="inputText"
+              placeholder="Enter the title of your favorite romance novel" 
+              autofocus 
+              required
+            />
+            <button type="submit" id="generateButton">Generate Poem</button>
+        </form>
+        <div id="poemContainer">
+            <h2>Your Generated Poem</h2>
+            <p id="poemOutput">Your poem will appear here...</p>
+        </div>
+    </main>
+    <footer> 
+        This AI project was coded by <a href="https://github.com/Cindy-bio" target="_blank">Cindy Nkosi</a> and is open sourced on <a href="https://github.com/Cindy-bio/Giggles-all--34-teeths.git" target="_blank"> GitHub,</a> and is hosted on <a href ="https://poemsforall.netlify.app/" > netlify</a>
     </footer>
     <script src = "src/events.js"></script>
 </body>
