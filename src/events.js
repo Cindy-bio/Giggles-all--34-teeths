@@ -12,9 +12,12 @@ function generatePoem(event) {
    
     let fieldInput = document.querySelector("#inputText");
     let apiKey = "59co603b2aafffbe78f0b45aa8t9fe03";
-    let context = `You are an AI poet who writes romantic poems based on romance novels. You will be given a book title and author name, please generate a poem inspired by it. Use the information of the titled book as a theme for the poem and let it be separated with <br></br> and be bold <strong></strong>. The poem should be in English and should not exceed 100 words. Give the poem a title that reflects the theme of the book. Let the lines be separeated with <br>.`;
-    let prompt = `Write a romantic poem inspired by the book titled ${fieldInput.value}`;
+    let context = `You are an AI poet who writes romantic poems based on romance novels that are well know all around the world. You will be given a book title and the authors name, please generate a poem inspired by it. Use the information of the titled book as a theme for the poem and let it be separated with <br></br> and be bold <strong></strong>. The poem should be in English and should not exceed 100 words. Give the poem a title that reflects the theme of the book. Let the lines be separeated with <br>.`;
+    let prompt = `Write a romantic poem inspired by ${fieldInput.value}`;
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+
+    let poemContainerElement = document.querySelector("#poemContainer");
+    poemContainerElement.innerHTML = `Generating your poem about ${fieldInput.value}...`;
     
    axios.get(apiUrl).then(displayPoem);
 }

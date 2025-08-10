@@ -26,16 +26,25 @@ header{
     font-size: small;
     color: rgb(100, 100, 100);
 }
+.typewriter {
+    color: rgb(240, 179, 240);
+    background-color: ghostwhite;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
 form{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 20px;
-    border-radius: 10px;
+    justify-content: center;
     color: rgb(240, 179, 240);
-    background-color: ghostwhite;
+    background-color: rgb(133, 93, 121);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
 }
-.input-field {
+.field {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
@@ -60,6 +69,12 @@ form{
 .enterButton:hover {
     background-color: rgb(248, 131, 182);
 }
+.hint {
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    margin-top: 10px;
+    text-align: center;
+}
 .poem-container {
     font-family: "Lovers Quarrel", cursive;
     font-size: 22px;
@@ -72,6 +87,13 @@ form{
     border-radius: 10px;
     border-left: 3px solid rgb(185, 97, 128);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    mask: linear-gradient(-60deg, #000 30%, #0005, #000 70%) right/350% 100%;
+    animation: shimmer 2.5s infinite;
+}
+@keyframes shimmer {
+  100% {
+    mask-position: left
+  }
 }
 footer {
     text-align: center;
