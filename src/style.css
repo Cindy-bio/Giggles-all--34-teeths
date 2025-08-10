@@ -39,7 +39,7 @@ form{
     flex-direction: column;
     justify-content: center;
     color: rgb(240, 179, 240);
-    background-color: rgb(133, 93, 121);
+    background-color: rgb(223, 195, 214);
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
@@ -57,7 +57,7 @@ form{
     line-height: 10px;
 }
 .enterButton {
-    background-color: rgb(185, 97, 128);
+    background-color: rgb(213, 144, 168);
     color: white;
     padding: 10px 20px;
     border: none;
